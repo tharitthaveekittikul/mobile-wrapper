@@ -1,0 +1,64 @@
+/* MobileWrapper.css */
+/* .mobile-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000;
+}
+
+.mobile-frame {
+  width: 100%;
+  height: 100%;
+  max-width: 414px; 
+  overflow: hidden;
+}
+
+.mobile-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (min-width: 415px) and (min-height: 737px) {
+  .mobile-frame {
+    width: 375px;
+  }
+}
+
+
+@media (max-width: 320px), (max-height: 568px) {
+  .mobile-frame {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 414px) {
+  .mobile-wrapper {
+    height: 100vh;
+    align-items: flex-start;
+  }
+
+  .mobile-frame {
+    height: 100%;
+  }
+} */
+
+.mobile-wrapper {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  overflow-x: hidden;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .mobile-wrapper {
+    max-width: 480px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+}

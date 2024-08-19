@@ -1,0 +1,22 @@
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-top: 1px solid #e2e8f0;
+  height: 64px;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .tab-bar {
+    max-width: 480px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
